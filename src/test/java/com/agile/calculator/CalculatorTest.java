@@ -1,11 +1,7 @@
 package com.agile.calculator;
 
 import static org.junit.Assert.assertEquals;
-
-import org.junit.Before;
 import org.junit.Test;
-
-import com.agile.calculator.Calculator;
 
 public class CalculatorTest {
 
@@ -14,7 +10,7 @@ public class CalculatorTest {
 	@Test
 	public void subtractTest() {
 		calculator = new Calculator();
-		int expected = 2;
+		int expected = 42;
 		int actual = calculator.subtract("5,3");
 		assertEquals(expected, actual);
 	}
